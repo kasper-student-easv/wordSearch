@@ -8,7 +8,7 @@ import java.util.List;
 
 public class WordsData {
     private List<String> Words;
-    private final String WordsPath ="C:/Users/kaspe/intelliJ_ting/wordsearch/src/main/java/dk/easv/wordsearch/data/brit-a-z.txt";
+    private final String WordsPath ="src/main/java/dk/easv/wordsearch/data/brit-a-z.txt";
 
     public WordsData()
     {
