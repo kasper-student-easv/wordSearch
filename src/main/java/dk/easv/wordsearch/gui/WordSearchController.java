@@ -4,6 +4,7 @@ import dk.easv.wordsearch.bll.WordsLogic;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 
@@ -24,6 +25,10 @@ public class WordSearchController implements Initializable
     private ListView lstA;
     @FXML
     private TextField txtSearchWord;
+    @FXML
+    private Label lblWordCount;
+    @FXML
+    private Label lblSearchResult;
 
     @Override
     public void initialize(URL location, ResourceBundle resources)

@@ -54,4 +54,12 @@
          </HBox>
       </children>
    </HBox>
+   <HBox prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Label text="Total word count: " />
+         <Label fx:id="lblWordCount" text="&lt;Num&gt;" />
+         <Label text="Search result: " />
+         <Label fx:id="lblSearchResult" text="&lt;result&gt;" />
+      </children>
+   </HBox>
 </VBox>
