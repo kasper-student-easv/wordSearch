@@ -9,6 +9,7 @@ import java.util.List;
 public class WordsData {
     private List<String> Words;
     private final String WordsPath ="src/main/java/dk/easv/wordsearch/data/brit-a-z.txt";
+    private final String historyPath ="src/main/java/dk/easv/wordsearch/data/history.txt";
 
     public WordsData()
     {
